@@ -5,16 +5,24 @@
 package irrgarten;
 
 /**
+ * <b>Irrgarten Main Class</b>
+ * <p>
+ * This class is the main entry point for this application and initiates the
+ * game and initial system configuration.
+ * </p>
  *
- * @author javye
+ * * @author javiervidgar
+ * @version 1.0
  */
 public class Irrgarten {
 
     /**
-     * @param args the command line arguments
+     * Main entry point that executes application logic.
+     *
+     * * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+
 }
