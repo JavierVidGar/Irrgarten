@@ -28,8 +28,8 @@ public class Weapon {
     /**
      * Constructor con parámetros
      *
-     * @param power
-     * @param uses
+     * @param power valor asignado a power
+     * @param uses valor asignado a uses
      */
     public Weapon(float power, int uses) {
         this.power = power;
@@ -40,7 +40,7 @@ public class Weapon {
      * Método de ataque, comprueba el número de usos restantes y devuelve el
      * poder del ataque.
      *
-     * @return Si el ataque es eficaz devuelve power.
+     * @return Si el ataque es eficaz devuelve power, si no devuelve 0.
      */
     public float attack() {
         // Si no tenemos usos restantes, el ataque no funciona.
@@ -55,6 +55,11 @@ public class Weapon {
         return power;
     }
 
+    /**
+     * Método de interpretación en cadena de texto de la clase.
+     *
+     * @return un String con el formato "W[power, uses]"
+     */
     public String toString() {
         return "W[" + power + ", " + uses + "]";
     }
