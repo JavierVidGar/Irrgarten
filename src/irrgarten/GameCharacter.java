@@ -5,9 +5,9 @@
 package irrgarten;
 
 /**
- * <b>Game Character Enum</b>
+ * <b>Enum GameCharacter</b>
  * <p>
- * This enum defines the types of characters in the game.
+ * Este enum define los tipos de personajes en el juego.
  * </p>
  *
  * @author javiervidgar

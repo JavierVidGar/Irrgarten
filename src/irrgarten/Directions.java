@@ -5,9 +5,9 @@
 package irrgarten;
 
 /**
- * <b>Directions Enum</b>
+ * <b>Enum Directions</b>
  * <p>
- * This enum defines the directions in the game map.
+ * Este enum define las direcciones del mapa del juego.
  * </p>
  *
  * @author javiervidgar
