@@ -5,10 +5,10 @@
 package irrgarten;
 
 /**
- * <b>Irrgarten Main Class</b>
+ * <b>Clase Irrgarten</b>
  * <p>
- * This class is the main entry point for this application and initiates the
- * game and initial system configuration.
+ * Esta clase es el punto de entrada principal para esta aplicacion, inicia el
+ * juego y el sistema de configuración inicial.
  * </p>
  *
  * @author javiervidgar
@@ -17,12 +17,12 @@ package irrgarten;
 public class Irrgarten {
 
     /**
-     * Main entry point that executes application logic.
+     * Punto de entrada principal que ejecuta la lógica de la aplicación.
      *
-     * @param args the command line arguments
+     * @param args argumentos de línea de comandos
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // TODO Implementar lógica del juego
     }
 
 }

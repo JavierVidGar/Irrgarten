@@ -5,9 +5,9 @@
 package irrgarten;
 
 /**
- * <b>Orientation Enum</b>
+ * <b>Enum Orientation</b>
  * <p>
- * This enum defines the orientation of a character.
+ * Este enum define la orientación de un personaje.
  * </p>
  *
  * @author javiervidgar
