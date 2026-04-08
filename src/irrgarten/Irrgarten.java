@@ -11,7 +11,7 @@ package irrgarten;
  * game and initial system configuration.
  * </p>
  *
- * * @author javiervidgar
+ * @author javiervidgar
  * @version 1.0
  */
 public class Irrgarten {
@@ -19,7 +19,7 @@ public class Irrgarten {
     /**
      * Main entry point that executes application logic.
      *
-     * * @param args the command line arguments
+     * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
