@@ -5,21 +5,21 @@
 package irrgarten;
 
 /**
- * <b>Orientation Enum</b>
+ * <b>Game Character Enum</b>
  * <p>
- * This enum defines the orientation of a character.
+ * This enum defines the types of characters in the game.
  * </p>
  *
  * @author javiervidgar
  * @version 1.0
  */
-public enum Orientation {
+public enum GameCharacter {
     /**
-     * Vertical
+     * Jugador
      */
-    VERTICAL,
+    PLAYER,
     /**
-     * Horizontal
+     * Monstruo
      */
-    HORIZONTAL;
+    MONSTER;
 }
