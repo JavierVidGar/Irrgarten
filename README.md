@@ -2,7 +2,8 @@
 
 Irrgarten Game Java Project
 
-A Java-based game developed as part of the PDOO subject at UGR. The project follows an evolutionary development process divided into several assignments (prácticas).
+A Java-based game developed as part of the PDOO subject at UGR.
+The project follows an evolutionary development process divided into several assignments (practicas).
 
 ## About the Project
 
@@ -64,15 +65,18 @@ Irrgarten
 
 ## Assignments Roadmap
 
-· Práctica 1:
+· [Game Context](./guides/P0.pdf): This file gives the rules of the game we are developing.
 
-· Práctica 2:
+· [Practica 1](./guides/P1.pdf): We will follow this file to implement the first assignment.
+It consists of implementing the first classes and enums and adding a test class named `TestP1`.
 
-· Práctica 3:
+· Practica 2: 
 
-· Práctica 4:
+· Practica 3: 
 
-· Práctica 5:
+· Practica 4: 
+
+· Practica 5: 
 
 ## Author
 
@@ -80,4 +84,4 @@ Javier Vidal García
 
 ## License
 
-This project is licensed under the [LICENSE](LICENSE) file.
+This project is licensed under the [LICENSE](./LICENSE) file.
