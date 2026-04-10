@@ -15,11 +15,11 @@ package irrgarten;
  */
 public enum GameCharacter {
     /**
-     * Jugador
+     * Jugador.
      */
     PLAYER,
     /**
-     * Monstruo
+     * Monstruo.
      */
     MONSTER;
 }

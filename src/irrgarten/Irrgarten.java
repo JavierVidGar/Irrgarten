@@ -19,10 +19,10 @@ public class Irrgarten {
     /**
      * Punto de entrada principal que ejecuta la lógica de la aplicación.
      *
-     * @param args argumentos de línea de comandos
+     * @param args argumentos de línea de comandos.
      */
     public static void main(String[] args) {
-        // TODO Implementar lógica del juego
+        // TODO Implementar lógica del juego.
     }
 
 }
