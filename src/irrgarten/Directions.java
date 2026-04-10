@@ -15,19 +15,19 @@ package irrgarten;
  */
 public enum Directions {
     /**
-     * Izquierda
+     * Izquierda.
      */
     LEFT,
     /**
-     * Derecha
+     * Derecha.
      */
     RIGHT,
     /**
-     * Arriba
+     * Arriba.
      */
     UP,
     /**
-     * Abajo
+     * Abajo.
      */
     DOWN;
 }

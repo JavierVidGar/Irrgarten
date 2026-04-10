@@ -16,20 +16,20 @@ package irrgarten;
 public class Shield {
 
     /**
-     * Poder de protección
+     * Poder de protección.
      */
     private float protection;
 
     /**
-     * Número de usos restantes del escudo
+     * Número de usos restantes del escudo.
      */
     private int uses;
 
     /**
-     * Constructor con parámetros
+     * Constructor con parámetros.
      *
-     * @param protection valor asignado a protection
-     * @param uses valor asignado a uses
+     * @param protection valor asignado a protection.
+     * @param uses valor asignado a uses.
      */
     public Shield(float protection, int uses) {
         this.protection = protection;
@@ -58,7 +58,7 @@ public class Shield {
     /**
      * Método de interpretación en cadena de texto de la clase.
      *
-     * @return un String con el formato "S[protection, uses]"
+     * @return un String con el formato "S[protection, uses]".
      */
     public String toString() {
         return "S[" + protection + ", " + uses + "]";

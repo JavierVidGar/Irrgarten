@@ -16,20 +16,20 @@ package irrgarten;
 public class Weapon {
 
     /**
-     * Poder de ataque
+     * Poder de ataque.
      */
     private float power;
 
     /**
-     * Número de usos restantes del arma
+     * Número de usos restantes del arma.
      */
     private int uses;
 
     /**
-     * Constructor con parámetros
+     * Constructor con parámetros.
      *
-     * @param power valor asignado a power
-     * @param uses valor asignado a uses
+     * @param power valor asignado a power.
+     * @param uses valor asignado a uses.
      */
     public Weapon(float power, int uses) {
         this.power = power;
@@ -58,7 +58,7 @@ public class Weapon {
     /**
      * Método de interpretación en cadena de texto de la clase.
      *
-     * @return un String con el formato "W[power, uses]"
+     * @return un String con el formato "W[power, uses]".
      */
     public String toString() {
         return "W[" + power + ", " + uses + "]";

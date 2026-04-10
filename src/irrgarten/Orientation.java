@@ -15,11 +15,11 @@ package irrgarten;
  */
 public enum Orientation {
     /**
-     * Vertical
+     * Vertical.
      */
     VERTICAL,
     /**
-     * Horizontal
+     * Horizontal.
      */
     HORIZONTAL;
 }
