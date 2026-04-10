@@ -56,10 +56,20 @@ public class Shield {
     }
 
     /**
+     * Implementa la decisión de si el escudo debe ser descartado.
+     *
+     * @return true si se debe descartar el escudo, false en caso contrario.
+     */
+    public boolean discard() {
+        return Dice.discardElement(uses);
+    }
+
+    /**
      * Método de interpretación en cadena de texto de la clase.
      *
      * @return un String con el formato "S[protection, uses]".
      */
+    @Override
     public String toString() {
         return "S[" + protection + ", " + uses + "]";
     }
