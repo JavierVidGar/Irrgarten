@@ -56,10 +56,20 @@ public class Weapon {
     }
 
     /**
+     * Implementa la decisión de si el arma debe ser descartado.
+     *
+     * @return true si se debe descartar el arma, false en caso contrario.
+     */
+    public boolean discard() {
+        return Dice.discardElement(uses);
+    }
+
+    /**
      * Método de interpretación en cadena de texto de la clase.
      *
      * @return un String con el formato "W[power, uses]".
      */
+    @Override
     public String toString() {
         return "W[" + power + ", " + uses + "]";
     }
